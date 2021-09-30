@@ -8,7 +8,12 @@
         //user input
         cin >> num;
         //loop to find the sum of divisors
-       
+        for(int i=1; i < num; i++)
+        {
+            div = num % i;
+            if(div == 0)
+            sum += i;
+        }
         //checking for perfect number
         if (sum == num)
             cout<< num <<” is a perfect number.”;
