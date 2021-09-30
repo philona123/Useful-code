@@ -10,6 +10,16 @@
         int sq= num*num;
         int store=num;
         //check for automorphic number
+        while(num>0)
+        {
+            if(num%10!=sq%10)
+            {    
+                        flag=1;
+                        break;
+             }
+            num=num/10;
+            sq=sq/10;
+        }
        
         if(flag==1)
             cout<<store<<” is not an Automorphic number.”;
