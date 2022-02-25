@@ -1,2 +1,2 @@
 # Useful-code
-Useful code
+Useful code for hacktoberfest
